@@ -1,0 +1,14 @@
+# Local credentials and environment files must never be published.
+.env
+.env.*
+.dev.vars
+.dev.vars.*
+*.pem
+*.key
+
+# Local tooling and unreviewed screenshots.
+node_modules/
+private-screenshots/
+
+# Draft for the separate portfolio site; not part of this public code repository.
+作品集介紹.md
